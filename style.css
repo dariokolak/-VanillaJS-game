@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  position: relative;
+  background-color: black;
+  height: 80vh;
+  border: solid 20px white;
+  top: 70px;
+}
+
+.circle {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 1750px;
+  top: 650px;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  left: 45%;
+  letter-spacing: 5px;
+  bottom: 10px;
+}
+.btn1 {
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  height: 50px;
+  left: 75%;
+  letter-spacing: 5px;
+  bottom: 10px;
+}
+
+.right {
+  position: absolute;
+  left: 50px;
+  top: 1px;
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+.flex {
+  display: flex;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#countdown {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: #fff;
+  top: 0px;
+  left: 47%;
+  font-size: 30px;
+  height: 60px;
+  width: 100px;
+  position: absolute;
+}
